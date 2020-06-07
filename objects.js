@@ -9,3 +9,11 @@ function updatePlaylist(playlist, artistName, songTitle) {
   playlist[artistName] = songTitle
   return playlist
 }
+
+//accepts arguments playlist object & artist name
+//body of function should delete the key-pair value from the playlist
+//should return the updated playlist
+function removeFromPlaylist(playlist, artistName) {
+  delete playlist.Slowdive
+  return playlistxs
+}
