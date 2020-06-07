@@ -6,6 +6,5 @@ var playlist = {artistName: "songTitle" }
 //body of the function should add the song and artist as a key-value pair to the playlist object
 //function should return the whole playlist
 function updatePlaylist(playlist, artistName, songTitle) {
-  Object.assign({}, playlist, {[Phil Ochs]: "Here's to the State of Mississippi"})
-  return playlist
+  return Object.assign({}, playlist, { ["artistName"]: songTitle })
 }
