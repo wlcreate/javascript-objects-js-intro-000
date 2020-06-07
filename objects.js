@@ -14,6 +14,6 @@ function updatePlaylist(playlist, artistName, songTitle) {
 //body of function should delete the key-pair value from the playlist
 //should return the updated playlist
 function removeFromPlaylist(playlist, artistName) {
-  delete playlist.Slowdive
+  delete playlist[artistName]
   return playlist
 }
