@@ -15,5 +15,5 @@ function updatePlaylist(playlist, artistName, songTitle) {
 //should return the updated playlist
 function removeFromPlaylist(playlist, artistName) {
   delete playlist.Slowdive
-  return playlistxs
+  return playlist
 }
